@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Record-Deletion-Tool">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3025933651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Deletion</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3025933651 - Field 3133801257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Empresa"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Field Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3025933651 - Field 2558632233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Records</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Borrar Registros"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Field Delete Records - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3025933651 - Field 2065755396 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Records</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No. Registros"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Field No. of Records - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3025933651 - Field 859139943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Table Relation Errors</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No. Errores TableRelation"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Field No. of Table Relation Errors - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3025933651 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <note from="Developer" annotates="general" priority="2">ESP="ID Tabla"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3025933651 - Field 3808951907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table Name</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Nombre Tabla"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion - Field Table Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3576430184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Deletion Rel. Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion Rel. Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3576430184 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion Rel. Error - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3576430184 - Field 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion Rel. Error - Field Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3576430184 - Field 3070320983 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion Rel. Error - Field Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3576430184 - Field 3531868071 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion Rel. Error - Field Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3576430184 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Record Deletion Rel. Error - Field Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 2095919535 - NamedType 1761793071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 =&gt; %2 = '%3' does not exist in the '%4' table</source>
+          <note from="Developer" annotates="general" priority="2">%1 = RecRef Position, %2 = FieldRef Name, %3 = FieldRef Value, %4 = Record Ref Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method CheckTableRelations - NamedType NotExistsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 2095919535 - NamedType 2478991407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Table Relations?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method CheckTableRelations - NamedType CheckRelationsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 2095919535 - NamedType 877858973" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Checking Relations Between Records!\Table: #1#######</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method CheckTableRelations - NamedType CheckingRelationsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 3327007977 - NamedType 669701587" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Records with RunTrigger = false?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method DeleteRecords - NamedType DeleteRecordsQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 3327007977 - NamedType 112044149" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Records with RunTrigger = true?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method DeleteRecords - NamedType DeleteRecordsWithTriggerQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 3327007977 - NamedType 1617397918" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deleting Records!\Table: #1#######</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table ID</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method DeleteRecords - NamedType DeletingRecordsTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 542369812 - NamedType 1104668713" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 records to delete were suggested.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = number of suggested records</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method SuggestRecordsToDelete - NamedType RecordsWereSuggestedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 961918907 - Method 1419025072 - NamedType 2880885934" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 unlicensed partner or custom records were suggested.</source>
+          <note from="Developer" annotates="general" priority="2">%1 number of unlicensed records</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Record Deletion Mgt. - Method SuggestUnlicensedPartnerOrCustomRecordsToDelete - NamedType RecordsSuggestedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Deletion</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Borrador de Registros"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Control 2558632233 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Delete Records field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Control Delete Records - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Control 859139943 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Table Relation Errors field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Control No. of Table Relation Errors - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Control 1126547218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the CalcRecordsInTable(Rec.Table ID) field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Control NoOfRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Control 1126547218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Records</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No. Registros"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Control NoOfRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Table ID field.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Especifica el valor del campo ID de la tabla"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Control 3808951907 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Table Name field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Control Table Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 2095919535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Table Relations</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Verificar Relaciones de Tabla"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action CheckTableRelations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 666624329 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the ClearRecords action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action ClearRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 666624329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Records to Delete</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Limpiar registros para eliminar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action ClearRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 3327007977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the DeleteRecords action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action DeleteRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 3327007977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Records (no trigger!)</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Borrar Registros (sin trigger)"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action DeleteRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 302250615 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the DeleteRecordsWithTrigger action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action DeleteRecordsWithTrigger - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 302250615 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Records (with trigger!)</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Borrar Registros (con trigger!)"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action DeleteRecordsWithTrigger - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 529433861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the InsertUpdateTables action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action InsertUpdateTables - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 529433861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert/Update Tables</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Insertar/Actualizar Tablas"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action InsertUpdateTables - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 3798165307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the SuggestsRecords action.</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ejecuta la acción de registro de sugerencias."</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action SuggestsRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 3798165307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Records to Delete</source>
+          <note from="Developer" annotates="general" priority="2">ESP ="Sugerir registros para eliminar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action SuggestsRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 1305614015 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Unlicensed Partner or Custom Records to Delete</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Sugerir registros de partner o personalizados para eliminar"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action SuggestsUnlicensedPartnerOrCustomRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3025933651 - Action 2549815061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Records</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ver Registros"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion - Action ViewRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3576430184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Record Deletion Rel. Error</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Borrador Registros - Errores Relaciones"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion Rel. Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3576430184 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion Rel. Error - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3576430184 - Control 2248886284 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the error text if an error occured</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion Rel. Error - Control Error - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3576430184 - Control 3070320983 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Field Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion Rel. Error - Control Field Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3576430184 - Control 3531868071 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Field No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion Rel. Error - Control Field No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3576430184 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Table ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Record Deletion Rel. Error - Control Table ID - Property ToolTip</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

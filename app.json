@@ -1,15 +1,15 @@
 {
   "id": "cafd90e7-34f2-4ff9-ae7e-ae1210bc1841",
   "name": "Record-Deletion-Tool",
-  "publisher": "Waldemar Brakowski",
+  "publisher": "Sebastian Deharbe",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
-  "url": "",
-  "logo": "",
+  "url": "https://github.com/sebastiandeharbe",
+  "logo": "./images/sd_logo.png",
   "dependencies": [
   ],
   "screenshots": [],
@@ -17,11 +17,14 @@
   "application": "20.0.0.0",
   "idRanges": [
     {
-      "from": 50000,
-      "to": 50099
+      "from": 50200,
+      "to": 50210
     }
   ],
-  "contextSensitiveHelpUrl": "https://Record-Deletion-Tool.com/help/",
+  "contextSensitiveHelpUrl": "https://github.com/sebastiandeharbe",
   "runtime": "9.0",
-  "target": "Cloud"
+  "target": "Cloud",
+  "features": [
+    "TranslationFile", "GenerateCaptions"
+  ]
 }

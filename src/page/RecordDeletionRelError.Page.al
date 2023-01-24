@@ -1,9 +1,9 @@
-page 50001 "Record Deletion Rel. Error"
+page 50201 "Record Deletion Rel. Error"
 {
 
     PageType = List;
     SourceTable = "Record Deletion Rel. Error";
-    Caption = 'Record Deletion Rel. Error';
+    Caption = 'Record Deletion Rel. Error', Comment = 'ESP="Borrador Registros - Errores Relaciones"';
     ApplicationArea = All;
     UsageCategory = Lists;
 

@@ -1,9 +1,9 @@
-page 50000 "Record Deletion"
+page 50200 "Record Deletion"
 {
 
     PageType = List;
     SourceTable = "Record Deletion";
-    Caption = 'Record Deletion';
+    Caption = 'Record Deletion', Comment = 'ESP="Borrador de Registros"';
     ApplicationArea = All;
     UsageCategory = Lists;
 
@@ -16,7 +16,7 @@ page 50000 "Record Deletion"
                 field("Table ID"; Rec."Table ID")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Table ID field.';
+                    ToolTip = 'Specifies the value of the Table ID field.', Comment = 'ESP="Especifica el valor del campo ID de la tabla"';
                 }
                 field("Table Name"; Rec."Table Name")
                 {
@@ -25,7 +25,7 @@ page 50000 "Record Deletion"
                 }
                 field(NoOfRecords; RecordDeletionMgt.CalcRecordsInTable(Rec."Table ID"))
                 {
-                    CaptionML = ENU = 'No. of Records';
+                    Caption = 'No. of Records', comment = 'ESP="No. Registros"';
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the CalcRecordsInTable(Rec.Table ID) field.';
 
@@ -58,7 +58,7 @@ page 50000 "Record Deletion"
             action(InsertUpdateTables)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Insert/Update Tables';
+                Caption = 'Insert/Update Tables', Comment = 'ESP="Insertar/Actualizar Tablas"';
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Refresh;
@@ -73,13 +73,13 @@ page 50000 "Record Deletion"
             action(SuggestsRecords)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Suggest Records to Delete';
+                Caption = 'Suggest Records to Delete', Comment = 'ESP ="Sugerir registros para eliminar"';
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Suggest;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the SuggestsRecords action.';
+                ToolTip = 'Executes the SuggestsRecords action.', Comment = 'ESP="Ejecuta la acción de registro de sugerencias."';
                 trigger OnAction()
                 begin
                     RecordDeletionMgt.SuggestRecordsToDelete();
@@ -88,13 +88,12 @@ page 50000 "Record Deletion"
             action(SuggestsUnlicensedPartnerOrCustomRecords)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Suggest Unlicensed Partner or Custom Records to Delete';
+                Caption = 'Suggest Unlicensed Partner or Custom Records to Delete', Comment = 'ESP="Sugerir registros de partner o personalizados para eliminar"';
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Suggest;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the SuggestsUnlicensedPartnerOrCustomRecords action.';
                 trigger OnAction()
                 begin
                     RecordDeletionMgt.SuggestUnlicensedPartnerOrCustomRecordsToDelete();
@@ -103,7 +102,7 @@ page 50000 "Record Deletion"
             action(ClearRecords)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Clear Records to Delete';
+                Caption = 'Clear Records to Delete', Comment = 'ESP="Limpiar registros para eliminar"';
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Delete;
@@ -118,7 +117,8 @@ page 50000 "Record Deletion"
             action(DeleteRecords)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Delete Records (no trigger!)';
+                Caption = 'Delete Records (no trigger!)', Comment = 'ESP="Borrar Registros (sin trigger)"';
+                ;
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Delete;
@@ -133,7 +133,8 @@ page 50000 "Record Deletion"
             action(DeleteRecordsWithTrigger)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Delete Records (with trigger!)';
+                Caption = 'Delete Records (with trigger!)', Comment = 'ESP="Borrar Registros (con trigger!)"';
+                ;
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Delete;
@@ -148,13 +149,12 @@ page 50000 "Record Deletion"
             action(CheckTableRelations)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'Check Table Relations';
+                Caption = 'Check Table Relations', comment = 'ESP="Verificar Relaciones de Tabla"';
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Relationship;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the CheckTableRelations action.';
                 trigger OnAction()
                 begin
                     RecordDeletionMgt.CheckTableRelations();
@@ -163,13 +163,13 @@ page 50000 "Record Deletion"
             action(ViewRecords)
             {
                 ApplicationArea = All;
-                CaptionML = ENU = 'View Records';
+                Caption = 'View Records', Comment = 'ESP="Ver Registros"';
+                ;
                 Promoted = true;
                 PromotedIsBig = true;
                 Image = Table;
                 PromotedCategory = Process;
                 PromotedOnly = true;
-                ToolTip = 'Executes the ViewRecords action.';
                 trigger OnAction()
                 begin
                     RecordDeletionMgt.ViewRecords(Rec);
